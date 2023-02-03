@@ -1,0 +1,67 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+	
+	<bean id="employee" class="com.bajaj.beans.Employee"></bean>
+	<bean id="address" class="com.bajaj.beans.Address"></bean>
+
+</beans>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	 bean definitions here 
+	<context:annotation-config/>
+	
+	<bean id="employee" class="com.bajaj.beans.Employee"></bean>
+	<bean id="address" class="com.bajaj.beans.Address"></bean>-->
+	
+<!-- 	<bean id="employee" class="com.bajaj.beans.Employee">
+	<bean id="address" class="com.bajaj.beans.Address">
+		<property name="city" value="pune"></property>
+		<property name="state" value="MH"></property>
+	</bean>
+	
+		<property name="id" value="101"></property>
+		<property name="name" value="Ram"></property>
+		<property name="salary" value="1000"></property>
+		<property name="address">
+			<ref bean="address" />
+		</property>
+	</bean>
+	
+	<bean id="employee2" class="com.bajaj.beans.Employee" autowire="byName">
+		<constructor-arg value="234" />
+		<constructor-arg value="Praty" />
+		<constructor-arg value="122222" />
+		<constructor-arg ref="address"></constructor-arg>  
+	</bean>
+
+<bean id="address1" class="com.bajaj.beans.Address" autowire="byType" primary="true">
+		<property name="city" value="Bangalore"></property>
+		<property name="state" value="MH"></property>
+	</bean>
+	
+	<bean id="employee3" class="com.bajaj.beans.Employee">
+		<property name="id" value="103"></property>
+		<property name="name" value="tam"></property>
+		<property name="salary" value="14000"></property>
+		<constructor-arg>
+			<bean id="address" class="com.bajaj.beans.Address">
+				<property name="city" value="pune"></property>
+				<property name="state" value="MH"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+</beans>-->
